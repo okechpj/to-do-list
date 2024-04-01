@@ -1,0 +1,136 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Add task section styles */
+  .add-task {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .add-task input[type="text"],
+  .add-task input[type="date"],
+  .add-task input[type="time"],
+  .add-task button {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .add-task button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-task button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task list styles */
+  h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  /* Checkbox styles */
+  .task-checkbox {
+    margin-right: 10px;
+  }
+  
+  /* Label styles */
+  .task-label {
+    cursor: pointer;
+    flex-grow: 1;
+  }
+  
+  /* Delete button styles */
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Completed task styles */
+  .completed-task {
+    background-color: #d4edda;
+    text-decoration: line-through;
+  }
+  
+  /* Completed tasks container styles */
+  .completed-tasks-container {
+    display: none;
+    float: right;
+    width: calc(100% - 40px); /* Adjust width based on your preference */
+    margin-top: 20px;
+  }
+  
+  .completed-tasks-container h2 {
+    margin-bottom: 10px;
+    color: #28a745;
+  }
+  
+  .completed-tasks-container ul {
+    padding: 0;
+  }
+  
+  /* Task label styles */
+.task-label {
+    cursor: pointer;
+    flex-grow: 1;
+  }
+  
+  /* Completed task styles */
+  .completed-task .task-label {
+    text-decoration: line-through;
+  }
+  
